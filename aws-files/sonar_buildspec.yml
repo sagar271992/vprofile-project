@@ -9,7 +9,7 @@ env:
 phases:
   install:
     runtime-versions:
-      java: corretto8
+      java: openjdk8
     commands:
     - cp ./settings.xml /root/.m2/settings.xml
   pre_build:
