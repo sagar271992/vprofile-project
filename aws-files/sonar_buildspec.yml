@@ -1,4 +1,4 @@
-version: 0.2
+uversion: 0.2
 env:
   parameter-store:
     LOGIN: LOGIN
