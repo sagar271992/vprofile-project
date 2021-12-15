@@ -1,4 +1,4 @@
-uversion: 0.2
+version: 0.2
 env:
   parameter-store:
     LOGIN: LOGIN
@@ -9,7 +9,7 @@ env:
 phases:
   install:
     runtime-versions:
-      java: corretto
+      java: corretto8
     commands:
     - cp ./settings.xml /root/.m2/settings.xml
   pre_build:
